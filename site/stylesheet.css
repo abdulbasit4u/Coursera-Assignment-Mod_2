@@ -1,0 +1,128 @@
+/**Base Style**/
+* {
+ border-sizing: border-box;
+ font-family: tahoma;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  background-color: white;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: maroon;
+  font-size: 1.75em
+}
+
+
+p {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 1.25em
+  margin: 0px
+  padding: 0px;
+}
+
+div {
+  background-color: blue;
+}
+
+section {
+  clear: both;
+  padding-top:40px;
+  text-align: left;
+}
+
+#p1 {
+  background-color: maroon;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#p2 {
+  background-color: orange;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#p3 {
+  background-color: maroon;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#d1 {  
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  width: 350px;
+  height: 180px;}
+#d2 {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  width: 350px;
+  height: 180px;
+}
+#d3 {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  width: 350px;
+  height: 180px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #d1 {
+    width: 350px;
+    height: 180px;
+  }
+  #d2 {
+    width: 350px;
+    height: 180px;
+  }
+  #d3 {
+    width: 350px;
+    height: 180px;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #d1 {
+    width: 50%;
+    height: auto;
+  }
+  #d2 {
+    width: 50%
+    height: auto;
+  }
+  #d3 {
+    width: 100%
+    height: auto;
+  }
+}
