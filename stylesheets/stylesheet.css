@@ -1,4 +1,4 @@
-/*** Base Style ***/
+/**Base Style**/
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -15,6 +15,9 @@ h1 {
   margin-bottom: 15px;
 }
 
+h6 {
+  font-size: 1.20em;
+}
 
 p {
   border: 1px solid black;
@@ -75,7 +78,7 @@ div {
   clear: both;
 }
 
-#p3 {
+ #p3 {
   background-color: green;
   clear: both;
   width: auto;
@@ -93,7 +96,6 @@ div {
 
 section {
   background-color: maroon;
-  font-size: 1.15em;
   border: 1px solid black;
   text-align: center;
   padding-top: 10px;
@@ -105,6 +107,7 @@ section {
   top: 5px;
   right: 5px;
   clear: both;
+  overflow: auto;
 }
 
 #color-2 {
