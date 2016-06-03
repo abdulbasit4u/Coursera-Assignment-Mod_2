@@ -1,4 +1,4 @@
-/**Base Style**/
+/*** Base Style ***/
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -43,7 +43,7 @@ div {
   padding: 5px;
  }
 
-#p1, #p3 {
+#p1 {
   background-color: red;
   clear: both;
   width: auto;
@@ -75,7 +75,7 @@ div {
   clear: both;
 }
 
- #p3 {
+#p3 {
   background-color: green;
   clear: both;
   width: auto;
@@ -93,7 +93,7 @@ div {
 
 section {
   background-color: maroon;
-  font-size: 1.25em;
+  font-size: 1.15em;
   border: 1px solid black;
   text-align: center;
   padding-top: 10px;
@@ -115,31 +115,7 @@ section {
   background-color: blue;
 }
 
-/**#p2 {
-  background-color: orange;
-  text-align: center;
-  padding-top: 10px;
-  color: white;
-  float: right;
-  position: absolute;
-  top: 0;
-  right: 0;
-  clear: both;
-}
-
-#p3 {
-  background-color: green;
-  text-align: center;
-  padding-top: 10px;
-  color: white;
-  float: right;
-  position: absolute;
-  top: 0;
-  right: 0;
-  clear: both;
-}**/
-
-/********** Large devices only **********/
+/*** Desktop Only ***/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -183,7 +159,7 @@ section {
   }
 }
 
-/********** Medium devices only **********/
+/*** Tablet only ***/
 @media (min-width: 767px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -225,7 +201,7 @@ section {
     width: 100%;
   }
 }
-/********** Mobile devices only **********/
+/*** Mobile Only ***/
 @media (min-width: 200px) and (max-width: 766) {
   .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
     float: left;
